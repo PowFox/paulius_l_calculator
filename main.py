@@ -6,8 +6,8 @@ class Calculator:
     def add(self) -> float:
         ...
 
-    def sub(self) -> float:
-        ...
+    def sub(self, sk) -> float:
+        return self.number / sk
 
     def div(self) -> float:
         ...
